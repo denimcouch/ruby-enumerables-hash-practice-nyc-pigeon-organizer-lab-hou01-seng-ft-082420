@@ -7,11 +7,12 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names|
       #binding.pry 
       names.each do |name|
-        binding.pry 
+        #binding.pry 
         if !new_array[name]
           new_array[name].push
+        end 
       end 
-  
+  binding.pry 
     end 
     
   end 
