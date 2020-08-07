@@ -200,7 +200,7 @@ describe "NYC Pigeon Organizer" do
           expect(@luca[:gender].length).to eq(1)
           expect(@luca[:gender]).to include("male")
         end
-        it "knows Luca lives in library" do
+        it "knows Luca lives in the library" do
           expect(@luca[:lives].length).to eq(1)
           expect(@luca[:lives]).to include("Library")
         end
