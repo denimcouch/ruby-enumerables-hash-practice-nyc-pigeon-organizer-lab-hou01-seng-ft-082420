@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           new_array[name] = {}
         
         end 
-        binding.pry
+        #binding.pry
       end 
   
     end 
