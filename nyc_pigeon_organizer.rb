@@ -10,7 +10,6 @@ def nyc_pigeon_organizer(data)
         #binding.pry 
         if !new_array[name]
           new_array[name] = {}
-        
         end 
         #binding.pry
       end 
